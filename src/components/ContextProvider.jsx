@@ -1,11 +1,11 @@
-import { createContext, useReducer, useState } from "react";
+import { createContext, useReducer } from "react";
 import { v4 as uuid4 } from "uuid";
-import bike from "../assets/bike.jpg";
-import camera from "../assets/camera.png";
-import car from "../assets/car.png";
-import headphones from "../assets/headphones.jpg";
-import laptop from "../assets/laptop.png";
-import sofa from "../assets/sofa.png";
+import bike from "../assets/bike.webp";
+import camera from "../assets/camera.webp";
+import car from "../assets/car.webp";
+import headphones from "../assets/headphones.webp";
+import laptop from "../assets/laptop.webp";
+import sofa from "../assets/sofa.webp";
 
 export const context = createContext();
 

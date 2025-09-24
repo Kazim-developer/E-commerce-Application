@@ -8,7 +8,7 @@ function Product({ image, title, price, id }) {
     <div className="product">
       <div className="content">
         <div className="image">
-          <img src={image} alt={title} />
+          <img src={image} alt={title} loading="lazy" />
         </div>
         <div className="title">
           <h1>{title}</h1>
