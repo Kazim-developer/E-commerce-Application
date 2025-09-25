@@ -162,6 +162,7 @@ h3 {
 
 .active {
   width: 50%;
+  max-width: 1000px;
   height: fit-content;
   display: flex;
   justify-content: center;
@@ -248,6 +249,10 @@ h3 {
   justify-content: space-between;
   align-items: center;
   gap: 1em;
+}
+
+.quantity span {
+  user-select: none;
 }
 .quantity button {
   outline: none;
