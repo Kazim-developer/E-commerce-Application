@@ -1,16 +1,85 @@
-# React + Vite
+# 🛍️ React E-Commerce Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **E-Commerce Web Application** built with **React** and **CSS3**.  
+It allows users to browse products, add them to the cart, manage quantities, and view real-time price updates.  
+The app provides a clean, user-friendly, and fully responsive shopping experience across all devices.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🛒 **Add to Cart** — Instantly add products to your cart with a single click.
+- 📦 **Dynamic Quantity Management** — Adjust the quantity of each product directly inside the cart dialog.
+- 💰 **Real-Time Price Calculation** — Total price updates automatically as you increase or decrease product quantities.
+- 🧾 **Cart Dialog Box** — Displays all selected products with quantity and subtotal details.
+- 🎨 **Beautiful & Responsive UI** — Designed with pure CSS3 for a modern, mobile-friendly experience.
+- 🔄 **State-Based Updates** — React state ensures real-time synchronization between product list and cart.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Technology                            | Purpose                                  |
+| ------------------------------------- | ---------------------------------------- |
+| **React**                             | For building interactive UI components   |
+| **CSS3**                              | For responsive design and styling        |
+| **React Hooks (useState, useEffect)** | For state management and dynamic updates |
+
+---
+
+## 🛒 Add to Cart Functionality
+
+Each product card includes an “Add to Cart” button.
+When clicked:
+
+- The selected product is added to the cart.
+
+- If the product already exists, its quantity increases instead of duplicating.
+
+- A small dialog or modal displays all carted items dynamically.
+
+---
+
+## 💰 Dynamic Price Updates
+
+Inside the Cart Dialog, users can change the quantity of products using + or – buttons.
+As the quantity changes:
+
+- The subtotal for each product updates instantly.
+
+- The total cart price recalculates automatically.
+
+---
+
+## 🎨 Styling
+
+Built with pure CSS3 (no frameworks).
+
+- Utilizes Flexbox and CSS Grid for clean and adaptive layouts.
+
+- Hover effects, transitions, and color schemes for modern UI feel.
+
+- Fully responsive across devices — from large screens to mobile phones.
+
+---
+
+## 📱 Responsiveness
+
+- Mobile-first design.
+
+- Dynamic layout adjustment for smaller screens.
+
+- Cart dialog and product grid adapt gracefully to all viewports.
+
+---
+
+## 🪪 License
+
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute this project with attribution.
+
+---
+
+## 👨‍💻 Author
+
+Muhammad Kazim Raza — 💼 Frontend Developer | React Developer
